@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import {fadeIn, slideIn, textVariant} from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className='xs:w-[210px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -38,8 +38,8 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-  <div className="flex">
-    <div className="w-3/4">
+  <div className="flex p-20 background-image">
+    <div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -61,17 +61,19 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+        <motion.div
+            variants={slideIn("right", "tween", 0.2, 1)}
+            className='w-2/4 mt-20 hidden phone-mobile'
+        >
+            <img
+                src={"/img/felipe.PNG"}
+                alt="ficture"
+                className="w-full h-auto"
+            />
+        </motion.div>
     </div>
 
-    <motion.p 
-      variants={fadeIn("", "", 0.2, 2)}
-      className="w-1/4 ml-2 mt-auto mb-10">
-      <img
-        src={"/img/felipe.PNG"}
-        alt="ficture"
-        className="w-full h-auto"
-      />
-    </motion.p>
+
 </div>
 
 
