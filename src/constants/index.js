@@ -195,7 +195,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Mr. López left our company to take on new and exciting challenges, but I wish he hadn't. I would hire him back in a heartbeat.",
+      "Mr. López left our company to take on new and exciting challenges, but I wish he hadn't. I would hire him back in a heartbeat",
     name: "Jose Diaz",
     designation: "Managing Director",
     company: "Aircury",
@@ -204,7 +204,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I wholeheartedly recommend Felipe to any team or organization seeking a dedicated and proficient professional.",
+      "I wholeheartedly recommend Felipe to any team or organization seeking a dedicated and proficient professional",
     name: "Fernando Gómez",
     designation: "CEO",
     company: "Strategic Thinking",
