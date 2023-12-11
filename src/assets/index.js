@@ -30,6 +30,7 @@ import santander from "./company/santander.png";
 import jose from "./people/jose.jpg"
 import fernando from "./people/fernando.jpg"
 
+import bhashsaBridge from "./project/bhashsa_bridge.png";
 import vitalHealth from "./project/vital_health.png";
 import spotifyRecommender from "./project/spotify_recommender.png";
 import openflowSdn from "./project/openflow_sdn.png";
@@ -69,6 +70,7 @@ export {
   jose,
   fernando,
   
+  bhashsaBridge,
   vitalHealth,
   spotifyRecommender,
   openflowSdn,

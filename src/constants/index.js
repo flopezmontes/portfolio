@@ -26,6 +26,7 @@ import {
   jose,
   fernando,
 
+  bhashsaBridge,
   vitalHealth,
   spotifyRecommender,
   openflowSdn
@@ -216,6 +217,30 @@ const testimonials = [
 
 const projects = [
   {
+    name: "BhashsaBridge",
+    description: "This project involves real-time translation between Bengali and English, focusing on audio translation while maintaining the speaker's gender identity.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Deep Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: bhashsaBridge,
+    source_code_link: "https://github.com/flopezmontes/real-time-voice-translation-system",
+  },
+  {
     name: "Vital Health",
     description:
       "Web application developed as an end-of-degree project. Vanilla JS and Google Firestore Database and Firebase Hosting were used, along with HTML + CSS.",
@@ -267,7 +292,7 @@ const projects = [
       "OpenFlow SDN full mesh tree topology using Mininet and POX controller.",
     tags: [
       {
-        name: "OpenFlow SDN",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
