@@ -22,7 +22,7 @@ const Contact = () => {
         <div className='mt-12 flex flex-col gap-8'>
           <span className='text-white font-medium mb-4'>Luis Felipe López Montes</span>
           <a href= "mailto:flopezmontes98@gmail.com?subject=Contact Request" className='text-white font-medium mb-4'>flopezmontes98@gmail.com</a>
-          <a href="tel:+41766878697" className='text-white font-medium mb-4'>+41 76 687 86 97</a>
+          <a href="tel:+34681116130" className='text-white font-medium mb-4'>+34 681 11 61 30</a>
         </div>
         <div className="mt-8 flex">
           <a
@@ -51,7 +51,7 @@ const Contact = () => {
         </div>
         <button
             type='button'
-            onClick={() => window.open("/documents/cv_felipe_lópez.pdf", "_blank")}
+            onClick={() => window.open("/documents/cv-felipe-lopez-en.pdf", "_blank")}
             className='mt-8 mb-5 bg-tertiary py-3 px-8 rounded-xl green-pink-gradient w-fit text-white font-bold shadow-md shadow-primary'
         >
           Download CV

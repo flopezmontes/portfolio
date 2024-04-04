@@ -20,6 +20,7 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import salesforce from "./tech/salesforce.png";
 
 import mql5 from "./company/mql5.png";
 import uvigo from "./company/uvigo.png";
@@ -60,6 +61,7 @@ export {
   docker,
   git,
   html,
+  salesforce,
 
   aircury,
   strategicThinking,

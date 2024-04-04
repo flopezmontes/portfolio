@@ -24,7 +24,7 @@ const Hero = () => {
   </p>
   <button
     type='button'
-    onClick={() => window.open("/documents/cv_felipe_lópez.pdf", "_blank")}
+    onClick={() => window.open("/documents/cv-felipe-lopez-en.pdf", "_blank")}
     className='mt-5 mb-5 bg-tertiary py-3 px-8 rounded-xl green-pink-gradient w-fit text-white font-bold shadow-md shadow-primary'
   >
     Download CV

@@ -16,6 +16,7 @@ import {
   css,
   git,
   docker,
+  salesforce,
 
   aircury,
   strategicThinking,
@@ -120,6 +121,10 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+  {
+    name: "Salesforce",
+    icon: salesforce,
+  },
 
 
   {
@@ -138,10 +143,11 @@ const experiences = [
     company_name: "Aircury",
     icon: aircury,
     iconBg: "#E6DEDD",
-    date: "August 2022 - October 2023",
+    date: "August 2022 - October 2023, March 2024 - Now",
     points: [
       "Development and supervision of Fullstack projects using PHP Symfony and ReactJS, according to the business and technical requirements demanded by the customer.",
       "Relational databases with PostgreSQL + Doctrine.",
+      "Creation of SQL data integration flows between Salesforce and various APIs.",
       "Collaboration with the support and testing teams for the resolution of the different tickets arising from the projects.",
       "Communication in English with different customers and teams using Jira, version control and working with different branches using Git and GitHub.",
       "Preparation of the projects technical documentation and participation in regular code reviews using best practices.",
