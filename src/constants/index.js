@@ -146,7 +146,7 @@ const experiences = [
     date: "March 2024 - Now",
     points: [
       "Data analysis and integration development using PHP Symfony and PostgreSQL, integrating platforms like Salesforce and the UK DfE API, focusing on efficiently downloading, processing, and transmitting data while balancing development timelines and system performance.",
-      "Database architecture development by resolving bottlenecks, optimizing queries, and ensuring data normalization for improved efficiency and clean code.",
+      "Database administration by resolving bottlenecks, optimizing queries, and ensuring data normalization for improved efficiency and clean code.",
       "Integrations deployment and monitoring management using AWS services, while maintaining effective communication with customers and utilizing version control with Git and GitHub.",
     ],
   },
