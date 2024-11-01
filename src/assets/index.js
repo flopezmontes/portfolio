@@ -10,12 +10,12 @@ import close from "./close.svg";
 import php from "./tech/php.png"
 import symfony from "./tech/symfony.png"
 import reactjs from "./tech/reactjs.png";
-import javascript from "./tech/javascript.png";
+import aws from "./tech/aws.png"
 import postgresql from "./tech/postgresql.png"
 import jenkins from "./tech/jenkins.png"
 import kubernetes from "./tech/kubernetes.png"
 import python from "./tech/python.png"
-import scikit from "./tech/scikit.png"
+import javascript from "./tech/javascript.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
@@ -56,7 +56,7 @@ export {
   jenkins,
   kubernetes,
   python,
-  scikit,
+  aws,
   css,
   docker,
   git,

@@ -6,12 +6,12 @@ import {
   php,
   symfony,
   reactjs,
-  javascript,
+  aws,
   postgresql,
   jenkins,
   kubernetes,
   python,
-  scikit,
+  javascript,
   html,
   css,
   git,
@@ -63,16 +63,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Data Integration Developer",
+    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "React JS Developer",
-    icon: mobile,
+    title: "Web Developer",
+    icon: web,
   },
 ];
 
@@ -90,8 +90,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "PostgreSQL",
@@ -110,8 +110,8 @@ const technologies = [
     icon: python,
   },
   {
-    name: "Scikit learn",
-    icon: scikit,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "HTML 5",
@@ -139,11 +139,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Data integration developer",
+    company_name: "Aircury",
+    icon: aircury,
+    iconBg: "#E6DEDD",
+    date: "March 2024 - Now",
+    points: [
+      "Data analysis and integration development using PHP Symfony and PostgreSQL, integrating platforms like Salesforce and the UK DfE API, focusing on efficiently downloading, processing, and transmitting data while balancing development timelines and system performance.",
+      "Database architecture development by resolving bottlenecks, optimizing queries, and ensuring data normalization for improved efficiency and clean code.",
+      "Integrations deployment and monitoring management using AWS services, while maintaining effective communication with customers and utilizing version control with Git and GitHub.",
+    ],
+  },
+  {
     title: "Full-stack web developer",
     company_name: "Aircury",
     icon: aircury,
     iconBg: "#E6DEDD",
-    date: "August 2022 - October 2023, March 2024 - Now",
+    date: "August 2022 - October 2023",
     points: [
       "Development and supervision of Fullstack projects using PHP Symfony and ReactJS, according to the business and technical requirements demanded by the customer.",
       "Relational databases with PostgreSQL + Doctrine.",
