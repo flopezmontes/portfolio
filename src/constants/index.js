@@ -63,7 +63,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Data Integration Developer",
+    title: "Database Technical Lead",
+    icon: mobile,
+  },
+  {
+    title: "ETL Developer",
     icon: mobile,
   },
   {
@@ -138,12 +142,26 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Data integration developer",
+    {
+    title: "Database Technical Lead",
     company_name: "Aircury",
     icon: aircury,
     iconBg: "#E6DEDD",
-    date: "March 2024 - Now",
+    date: "October 2025 - Now",
+    points: [
+      "Define standards for schema design, migrations, access control, backup, recovery, maintenance, monitoring, and performance expectations.",
+      "Promote safe change practices so database evolution does not create avoidable production risk or hidden operational debt.",
+      "Maintain visibility over critical database risks, capacity concerns, query performance issues, and recovery readiness.",
+      "Support teams in diagnosing difficult database problems and making sound decisions about persistence, indexing, and operational safeguards.",
+      "Drive stronger recovery confidence through documented procedures, backup discipline, and periodic validation of restore readiness.",
+    ],
+  },
+  {
+    title: "ETL developer",
+    company_name: "Aircury",
+    icon: aircury,
+    iconBg: "#E6DEDD",
+    date: "March 2024 - October 2025",
     points: [
       "Data analysis and integration development using PHP Symfony and PostgreSQL, integrating platforms like Salesforce and the UK DfE API, focusing on efficiently downloading, processing, and transmitting data while balancing development timelines and system performance.",
       "Database administration by resolving bottlenecks, optimizing queries, and ensuring data normalization for improved efficiency and clean code.",
@@ -151,7 +169,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full-stack web developer",
+    title: "Full-stack Web Developer",
     company_name: "Aircury",
     icon: aircury,
     iconBg: "#E6DEDD",
@@ -168,7 +186,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full-stack web developer",
+    title: "Full-stack Web Developer",
     company_name: "Strategic Thinking",
     icon: strategicThinking,
     iconBg: "#E6DEDD",
