@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import {fadeIn, slideIn, textVariant} from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[210px] w-full'>
+  <Tilt className='w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] py-5 px-4 sm:px-12 min-h-[220px] sm:min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon }) => (
           className='w-16 h-16 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='text-white text-[16px] sm:text-[20px] font-bold text-center'>
           {title}
         </h3>
       </div>
@@ -38,7 +38,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-  <div className="flex p-20 background-image">
+  <div className="flex lg:p-20 p-0 background-image">
     <div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
@@ -56,14 +56,14 @@ const About = () => {
         different projects in which to focus my motivation.
       </motion.p>
 
-      <div className='flex flex-wrap gap-5 mt-10'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10 w-full sm:max-w-[540px]'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
         <motion.div
             variants={slideIn("right", "tween", 0.2, 1)}
-            className='w-2/4 mt-20 hidden phone-mobile'
+            className='w-full sm:w-2/4 mt-10 sm:mt-20 hidden phone-mobile'
         >
             <img
                 src={"/img/felipe.PNG"}
