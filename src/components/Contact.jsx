@@ -20,13 +20,13 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <div className='mt-12 flex flex-col gap-8'>
-          <span className='text-white font-medium mb-4'>Luis Felipe López Montes</span>
+          <span className='text-white font-medium mb-4'>Felipe López Montes</span>
           <a href= "mailto:flopezmontes98@gmail.com?subject=Contact Request" className='text-white font-medium mb-4'>flopezmontes98@gmail.com</a>
           <a href="tel:+34681116130" className='text-white font-medium mb-4'>+34 681 11 61 30</a>
         </div>
         <div className="mt-8 flex">
           <a
-              href='https://www.linkedin.com/in/luisfellopezmontes/'
+              href='https://www.linkedin.com/in/flopezmontes/'
               target='_blank'
               className="mr-4"
           >
