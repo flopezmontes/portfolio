@@ -20,7 +20,7 @@ const Hero = () => {
     Hi, I'm <span className='text-[#915EFF]'>Felipe</span>
   </h1>
   <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-    SWE & Database Technical Lead
+    Data Platform Engineer
   </p>
   <button
     type='button'
@@ -32,7 +32,7 @@ const Hero = () => {
 
   <div className="flex ml-7">
     <a
-      href='https://www.linkedin.com/in/luisfellopezmontes/'
+      href='https://www.linkedin.com/in/flopezmontes/'
       target='_blank'
       className="mr-4"
     >

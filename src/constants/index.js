@@ -63,11 +63,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Database Technical Lead",
+    title: "Data Platform Engineer",
     icon: mobile,
   },
   {
-    title: "ETL Developer",
+    title: "Data Engineer",
     icon: mobile,
   },
   {
@@ -82,6 +82,26 @@ const services = [
 
 const technologies = [
   {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Salesforce",
+    icon: salesforce,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
     name: "PHP",
     icon: php,
   },
@@ -93,21 +113,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "AWS",
-    icon: aws,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgresql,
-  },
+
   {
     name: "Jenkins",
     icon: jenkins,
-  },
-  {
-    name: "Kubernetes",
-    icon: kubernetes,
   },
   {
     name: "Python",
@@ -126,38 +135,29 @@ const technologies = [
     icon: css,
   },
   {
-    name: "Salesforce",
-    icon: salesforce,
-  },
-
-
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
     {
-    title: "Database Technical Lead",
+    title: "Data Platform Engineer",
     company_name: "Aircury",
     icon: aircury,
     iconBg: "#E6DEDD",
-    date: "October 2025 - Now",
+    date: "October 2025 - Present",
     points: [
-      "Define standards for schema design, migrations, access control, backup, recovery, maintenance, monitoring, and performance expectations.",
-      "Promote safe change practices so database evolution does not create avoidable production risk or hidden operational debt.",
-      "Maintain visibility over critical database risks, capacity concerns, query performance issues, and recovery readiness.",
-      "Support teams in diagnosing difficult database problems and making sound decisions about persistence, indexing, and operational safeguards.",
-      "Drive stronger recovery confidence through documented procedures, backup discipline, and periodic validation of restore readiness.",
+      "Building on previous Data Engineering responsibilities while expanding ownership of database platform standards, reliability and operational practices.",
+      "Defining standards for schema design, migrations, access control, backup, recovery, maintenance, monitoring, and performance expectations.",
+      "Promoting safe change practices so database evolution does not create avoidable production risk or hidden operational debt.",
+      "Maintaining visibility over critical database risks, capacity concerns, query performance issues, and recovery readiness.",
+      "Supporting teams in diagnosing difficult database problems and making sound decisions about persistence, indexing, and operational safeguards.",
+      "Driving stronger recovery confidence through documented procedures, backup discipline, and periodic validation of restore readiness.",
     ],
   },
   {
-    title: "ETL developer",
+    title: "Data Engineer",
     company_name: "Aircury",
     icon: aircury,
     iconBg: "#E6DEDD",
