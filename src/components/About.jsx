@@ -49,11 +49,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-          I am a Data Platform Engineer with experience designing and maintaining reliable
-          data systems, database platforms and integration workflows. My background
-          combines Database Engineering, Data Engineering, and backend
-          development, allowing me to build solutions across the complete data
-          lifecycle: data ingestion, transformation, storage and operational reliability.
+      PostgreSQL database engineer focused on performance optimization, 
+      access control and automation on Amazon RDS. Independently drives database 
+      improvement initiatives, from identifying problems to designing and implementing 
+      solutions, with experience on production instances up to 4 TB.
       </motion.p>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10 w-full sm:max-w-[540px]'>

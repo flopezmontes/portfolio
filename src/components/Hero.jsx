@@ -20,11 +20,11 @@ const Hero = () => {
     Hi, I'm <span className='text-[#915EFF]'>Felipe</span>
   </h1>
   <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-    Data Platform Engineer
+    DATABASE ENGINEER | PostgreSQL · AWS
   </p>
   <button
     type='button'
-    onClick={() => window.open("/documents/cv-felipe-lopez-en.pdf", "_blank")}
+    onClick={() => window.open("/documents/Felipe_Lopez_Montes_CV_EN.pdf", "_blank")}
     className='mt-5 mb-5 bg-tertiary py-3 px-8 rounded-xl green-pink-gradient w-fit text-white font-bold shadow-md shadow-primary'
   >
     Download CV
