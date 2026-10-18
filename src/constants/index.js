@@ -63,7 +63,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Data Platform Engineer",
+    title: "Database Technical Lead",
     icon: mobile,
   },
   {
@@ -142,18 +142,16 @@ const technologies = [
 
 const experiences = [
     {
-    title: "Data Platform Engineer",
+    title: "Database Technical Lead",
     company_name: "Aircury",
     icon: aircury,
     iconBg: "#E6DEDD",
     date: "October 2025 - Present",
     points: [
-      "Building on previous Data Engineering responsibilities while expanding ownership of database platform standards, reliability and operational practices.",
-      "Defining standards for schema design, migrations, access control, backup, recovery, maintenance, monitoring, and performance expectations.",
-      "Promoting safe change practices so database evolution does not create avoidable production risk or hidden operational debt.",
-      "Maintaining visibility over critical database risks, capacity concerns, query performance issues, and recovery readiness.",
-      "Supporting teams in diagnosing difficult database problems and making sound decisions about persistence, indexing, and operational safeguards.",
-      "Driving stronger recovery confidence through documented procedures, backup discipline, and periodic validation of restore readiness.",
+      "Strengthened access controls on 3 production RDS instances with individual accounts, IAM authentication and least privilege; led security auditing and remediation planning across 15 instances.",
+      "Standardized PostgreSQL maintenance deployment across 4 production RDS instances by extending Lambda and Step Functions workflows and automating deployment with GitHub Actions.",
+      "Built ai-postgres for growth tracking, forecasts, alerts, deterministic tuning recommendations and role/permission views; added an MCP server and Bedrock API for instance-aware natural-language questions.",
+      "Led a 10-member Database Guild, providing training and guidance on query optimization, indexing and database practices to teams working across 15 production RDS instances.",
     ],
   },
   {
@@ -163,9 +161,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "March 2024 - October 2025",
     points: [
-      "Data analysis and integration development using PHP Symfony and PostgreSQL, integrating platforms like Salesforce and the UK DfE API, focusing on efficiently downloading, processing, and transmitting data while balancing development timelines and system performance.",
-      "Database administration by resolving bottlenecks, optimizing queries, and ensuring data normalization for improved efficiency and clean code.",
-      "Integrations deployment and monitoring management using AWS services, while maintaining effective communication with customers and utilizing version control with Git and GitHub.",
+      "Reduced a client’s monthly AWS spend by ~30% through PostgreSQL query and index tuning and data-pipeline optimization.",
+      "Achieved up to 60× faster queries, prioritizing the top 10 by load in AWS Database Insights; used EXPLAIN and EXPLAIN ANALYZE to guide indexing and SQL rewrites.",
+      "Cut daily synchronization volume by ~98% (~5M to ~100K records or fewer) using incremental reads, upserts and date filters instead of full refreshes, reducing CPU, memory use and runtime.",
+      "Reclaimed ~20% of occupied PostgreSQL storage using pg_repack and historical-data purging; established weekly maintenance across 4 production RDS instances.",
+      "Standardized 3 PostgreSQL schemas for UK Department for Education and Salesforce integrations by normalizing models and aligning fields with these source APIs.",
+      "Delivered 3 PostgreSQL workshops for ~13 engineers on optimization, indexing, transactions and normalization.",
     ],
   },
   {
