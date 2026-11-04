@@ -19,18 +19,4 @@ updates:
         applies-to: "security-updates"
         patterns:
           - "*" # Aplica a todas las alertas de seguridad
-
-  # 2. OPCIONAL: Configuración para los flujos de GitHub Actions (si los usas)
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    groups:
-      actions-versiones:
-        applies-to: "version-updates"
-        patterns:
-          - "*"
-      actions-seguridad:
-        applies-to: "security-updates"
-        patterns:
-          - "*"
+          
