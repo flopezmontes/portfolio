@@ -12,9 +12,9 @@ updates:
         versions: [">= 19.0.0"]
 
     groups:
-      actualizaciones-versiones:
+      version_updates:
         applies-to: "version-updates"
         patterns: ["*"]
-      actualizaciones-seguridad:
+      security_updates:
         applies-to: "security-updates"
         patterns: ["*"]
