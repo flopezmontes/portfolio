@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # <--- Aquí pones tu gestor de paquetes
+    directory: "/" # Busca en la raíz del proyecto
+    schedule:
+      interval: "weekly" # Revisa actualizaciones una vez a la semana
