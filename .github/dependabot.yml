@@ -1,6 +1,36 @@
 version: 2
 updates:
-  - package-ecosystem: "npm" # <--- Aquí pones tu gestor de paquetes
-    directory: "/" # Busca en la raíz del proyecto
+  # 1. Configuración para Node.js / npm
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
-      interval: "weekly" # Revisa actualizaciones una vez a la semana
+      interval: "weekly" # Cambia a "daily" si prefieres que revise todos los días
+    
+    # Aquí forzamos el agrupamiento absoluto
+    groups:
+      # Grupo para actualizaciones de versiones estándar
+      actualizaciones-versiones:
+        applies-to: "version-updates"
+        patterns:
+          - "*" # Aplica a todos los paquetes
+          
+      # Grupo para parches de seguridad (Evita que salgan 1 a 1)
+      actualizaciones-seguridad:
+        applies-to: "security-updates"
+        patterns:
+          - "*" # Aplica a todas las alertas de seguridad
+
+  # 2. OPCIONAL: Configuración para los flujos de GitHub Actions (si los usas)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      actions-versiones:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
+      actions-seguridad:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
